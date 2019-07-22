@@ -29,6 +29,11 @@ requests>=2.20.0
 ```
   
 ## Usage:
+1. Copy temp email: https://10minutemail.net/error-due.html
+2. Reigster & login Trial account, https://learning.oreilly.com/home/
+3. "Run ISBN"  for download ebook
+   "Run ISBN v" for downlaod video
+
 It's really simple to use, just choose a book from the library and replace in the following command:
   * X-es with its ID, 
   * `email:password` with your own. 
