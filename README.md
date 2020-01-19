@@ -11,7 +11,15 @@ Before any usage please read the *O'Reilly*'s [Terms of Service](https://learnin
 
 ## Requirements & Setup:
 ```shell
-$ git clone https://github.com/lorenzodifuccia/safaribooks.git
+
+$ yum install https://centos7.iuscommunity.org/ius-release.rpm -y
+  yum install python36u -y
+  ln -s /usr/bin/python3.6 /bin/python3
+  yum install python36u-pip -y
+  ln -s /usr/bin/pip3.6 /bin/pip3
+  pip3 install --upgrade pip
+
+$ git clone https://github.com/megadotnet/safaribooks.git
 Cloning into 'safaribooks'...
 
 $ cd safaribooks/
